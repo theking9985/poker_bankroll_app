@@ -49,7 +49,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
-
+  .state('tab.cashgame', {
+      url: '/dash/cash',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/game-cash.html',
+          controller: 'CashCtrl'
+        }
+      }
+    })
+   .state('tab.tournkeygame', {
+      url: '/dash/tournkey',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/game-tournkey.html',
+          controller: 'TournkeyCtrl'
+        }
+      }
+    })
   .state('tab.chats', {
       url: '/chats',
       views: {

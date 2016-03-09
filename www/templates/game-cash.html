@@ -1,0 +1,49 @@
+<ion-view view-title="Cash Game">
+  <ion-content>
+
+  	 <form ng-submit="" novalidate class="simple-form" >
+
+  	  <label class="item item-input item-select">
+	    <div class="input-label">
+	      Game Type
+	    </div>
+		<select>
+		  <option value="Texas">Texas Hold'em</option>
+		  <option value="Omaha">Omaha</option>
+		  <option value="BigO">BigO</option>
+		</select>
+		</label>
+	  <label class="item item-input item-select">
+	    <div class="input-label">
+	      Stake
+	    </div>
+		<select>
+		  <option value="1-2">1/2</option>
+		  <option value="3-5">3/5</option>
+		  <option value="15-30">15/30</option>
+		</select>
+		</label>
+
+		<ion-toggle toggle-class="toggle-calm">Limit
+		</ion-toggle>
+
+		<label class="item item-input">
+  		 <span class="input-label">Location</span>
+  		 <input type="text">
+		</label>
+
+		<label class="item item-input">
+  		 <span class="input-label">Buyin</span>
+  		 <input type="number">
+		</label>
+
+		<label class="item item-input">
+  		 <span class="input-label">Note</span>
+  		 <input type="text">
+		</label>
+
+
+
+	</form>
+  </ion-content>
+</ion-view>
