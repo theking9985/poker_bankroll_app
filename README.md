@@ -1,4 +1,16 @@
 # poker_bankroll_app
+
+## Installation guide
+* fork the project and do a git clone [repository_url] on your local mashine
+* npm install and bower install
+* npm install --save ionic
+* npm install --save ionic-cli
+* change directory into the project page
+* run 'ionic build' in the command line
+* run 'ionic emulate ios'
+* run 'ionic serve --lab'
+
+
 ##Features
 1. Cash game  
 2. Tournament  
@@ -38,4 +50,3 @@
 	- profit by month
 		- month
 		- graph
-blah blah
